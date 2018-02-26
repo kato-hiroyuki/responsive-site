@@ -84,7 +84,7 @@ a {
 }
 
 // desktop
-@media (max-width: 769px) {
+@media (min-width: 769px) {
   a {
     &:hover {
       text-decoration: underline;
@@ -206,11 +206,11 @@ section {
       font-size: 1rem;
     }
     h3 {
-    @extend .abel;
-    @extend .uppercase;
-    color: $baseColor;
-    font-size: 2.4rem;
-    font-weight: bold;
+    　@extend .abel;
+    　@extend .uppercase;
+    　color: $baseColor;
+    　font-size: 2.4rem;
+    　font-weight: bold;
     }
   }
 }
